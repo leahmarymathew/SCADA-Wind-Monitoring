@@ -1,0 +1,6 @@
+Processes: 1 → 1.10s
+Processes: 2 → 0.62s
+Processes: 4 → 0.38s
+Processes: 8 → 0.31s
+
+Distributed speedup: ~3.5×
