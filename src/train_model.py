@@ -42,3 +42,6 @@ with open("results/metrics.txt", "w") as f:
 
 print("Model trained successfully.")
 print(f"Recall: {recall:.4f}")
+
+X_test.to_csv("benchmarks/inference_input.csv", index=False)
+print("Inference input exported for OpenMP benchmarking.")

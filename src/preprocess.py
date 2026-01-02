@@ -3,10 +3,10 @@ import pandas as pd
 df = pd.read_csv("data/raw_scada.csv")
 
 df = df.rename(columns={
-    "LV ActivePower": "ActualPower",
-    "Wind Speed": "WindSpeed",
-    "Theoretical_Power": "TheoreticalPower",
-    "Wind Direction": "WindDirection"
+    "LV ActivePower (kW)": "ActualPower",
+    "Wind Speed (m/s)": "WindSpeed",
+    "Theoretical_Power_Curve (KWh)": "TheoreticalPower",
+    "Wind Direction (°)": "WindDirection"
 })
 
 df = df.dropna()

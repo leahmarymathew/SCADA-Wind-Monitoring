@@ -1,0 +1,6 @@
+Threads: 1 → 0.82s
+Threads: 4 → 0.34s
+Threads: 8 → 0.29s
+
+Speedup: 2.5×
+Latency reduction: ~40%
