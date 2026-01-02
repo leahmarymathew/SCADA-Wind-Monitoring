@@ -1,14 +1,24 @@
-# SCADA-Based Wind Turbine Monitoring & Forecasting
+# SCADA-Based Wind Turbine Monitoring System
 
 ## Overview
-This project implements a predictive maintenance and energy forecasting system for Wind Turbine Generators (WTG). It utilizes high-frequency SCADA data to detect anomalies and predict power output.
+This project implements a predictive maintenance system for wind turbines using SCADA data.
+At-risk turbine states are detected using power-curve deviation between actual and theoretical output.
 
-## Key Performance Metrics
-* [cite_start]**Accuracy:** Achieved 91% recall on at-risk turbine classifications using calibrated XGBoost[cite: 37].
-* [cite_start]**Efficiency:** Implemented parallel data processing (OpenMP/MPI), resulting in a 2.5x speedup[cite: 79].
-* [cite_start]**Latency:** Reduced inference response time by 40% through GPU-accelerated optimization[cite: 41].
+## Dataset
+SCADA measurements include wind speed, actual power, theoretical power, and wind direction.
 
-## Technical Stack
-* [cite_start]**Languages:** Python, C++ (HPC)[cite: 19, 78].
-* [cite_start]**Analysis:** XGBoost, SHAP, FFT (Fast Fourier Transform)[cite: 34, 95].
-* [cite_start]**Frameworks:** Flask, OpenMP, MPI[cite: 38, 77, 80].
+## Methodology
+- Feature engineering using power deviation
+- XGBoost classifier optimized for recall
+- SHAP-based explainability for operational insights
+
+## Results
+- High recall on at-risk turbine detection
+- Explainable power inefficiency indicators
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python src/preprocess.py
+python src/train_model.py
+python src/explain_shap.py
