@@ -1,9 +1,4 @@
-Got it 👍
-Below is the **ENTIRE polished README.md provided strictly as code**, ready to **copy–paste directly** into your repo.
 
----
-
-```md
 # SCADA-Based Wind Turbine Monitoring System
 Predictive Maintenance using Machine Learning, Explainability & Parallel Computing
 
