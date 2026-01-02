@@ -226,15 +226,4 @@ The system is relevant for roles in industrial AI, renewable energy analytics, h
 ## License
 
 This project is intended for educational and research purposes.
-```
 
----
-
-If you want next, I can:
-
-* Align **resume bullets exactly with this README**
-* Create **architecture diagrams**
-* Prepare **interview-ready explanations**
-* Convert this into a **research-style abstract**
-
-Just tell me what you want to do next.
