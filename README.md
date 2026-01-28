@@ -1,3 +1,6 @@
+[![Run on Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/leahmarymathew/SCADA-Wind-Monitoring/blob/main/notebooks/SCADA_Wind_Monitoring_Demo.ipynb
+)
 
 # SCADA-Based Wind Turbine Monitoring System
 Predictive Maintenance using Machine Learning, Explainability & Parallel Computing
